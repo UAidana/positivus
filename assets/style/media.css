@@ -17,6 +17,12 @@
     .section__logotypes .container {
         padding: 0 20px;
     }
+    .hero__subtitle, .btn__dark {
+        display: none;
+    }
+    .hero__subtitle-adaptiv, .btn__dark-adaptiv {
+        display: block;
+    }
 }
 @media (max-width:768px) {
     

@@ -133,7 +133,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.hero__navigating {
+.hero__navigating, .hero__adaptiv {
     max-width: 470px;
     padding: 20px;
 }
@@ -143,7 +143,7 @@
     font-size: 60px;
     color: var(--black);
 }
-.hero__subtitle {
+.hero__subtitle, .hero__subtitle-adaptiv {
     margin-top: 35px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -164,7 +164,7 @@
    height: 100%;
    object-fit: cover;
 }
-.btn-dark {
+.btn__dark, .btn__dark-adaptiv {
     margin-top: 35px;
     background: var(--dark);
     color: #fff;
