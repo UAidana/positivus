@@ -2,3 +2,41 @@
 @import url("./resset.css");
 @import url("./global.css");
 
+
+.process {
+    /* padding: 0px 100px; */
+    margin: 140px 100px;
+}
+.process__text {
+    display: flex;
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+    gap: 40px;
+    
+}
+
+.process__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    color: var(--black);
+    border-radius: 7px;
+    padding: 0px 7px;
+    width: 412px;
+    height: 51px;
+    background: var(--green);
+}
+
+.process__desc {
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 46px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--black);
+    
+}
