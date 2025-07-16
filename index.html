@@ -1,21 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Positivus</title>
-    <link rel="stylesheet" href="./assets/style/style.css">
-</head>
-<body>
-    <section class="hero"> </section>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/team-media.css" />
+  </head>
+  <body>
+    <section class="hero"></section>
     <section class="services"></section>
     <section class="caseStudies"></section>
     <section class="process"></section>
-    <section class="team"></section>
-    <section class="testimonials"> </section>
+    <section class="team">
+      <div class="container">
+        <div class="team__text">
+          <h1 class="team__title">Team</h1>
+          <p class="team__subtitle">
+            Meet the skilled and experienced team behind our successful digital marketing strategies
+          </p>
+        </div>
+
+        <div id="team__cards" class="team__cards">
+          <div class="team__card">
+            <div class="team__card-top">
+              <img src="./assets/team-images/team-image-1.png" alt="card__image" class="card__image" />
+              <div class="team__card-text">
+                <h3 class="team__card-title">John Smith</h3>
+                <p class="team__card-desc">CEO and Founder</p>
+              </div>
+              <img src="./assets/team-images/team-icon.svg" alt="team-icon" class="team__icon" />
+            </div>
+
+            <div class="team__card-bottom">
+              <p class="team__card-desc desc">
+                10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy
+              </p>
+            </div>
+          </div>
+
+          <div class="team__card">
+            <div class="team__card-top">
+              <img src="./assets/team-images/team-image-2.png" alt="card__image" class="card__image" />
+              <div class="team__card-text">
+                <h3 class="team__card-title">Jane Doe</h3>
+                <p class="team__card-desc">Director of Operations</p>
+              </div>
+              <img src="./assets/team-images/team-icon.svg" alt="team-icon" class="team__icon" />
+            </div>
+
+            <div class="team__card-bottom">
+              <p class="team__card-desc desc">
+                7+ years of experience in project management and team leadership. Strong organizational and
+                communication skills
+              </p>
+            </div>
+          </div>
+
+          <div class="team__card">
+            <div class="team__card-top">
+              <img src="./assets/team-images/team-image-3.png" alt="card__image" class="card__image" />
+              <div class="team__card-text">
+                <h3 class="team__card-title">Michael Brown</h3>
+                <p class="team__card-desc">Senior SEO Specialist</p>
+              </div>
+              <img src="./assets/team-images/team-icon.svg" alt="team-icon" class="team__icon" />
+            </div>
+
+            <div class="team__card-bottom">
+              <p class="team__card-desc desc">
+                5+ years of experience in SEO and content creation. Proficient in keyword research and on-page
+                optimization
+              </p>
+            </div>
+          </div>
+
+          <div class="team__card">
+            <div class="team__card-top">
+              <img src="./assets/team-images/team-image-4.png" alt="card__image" class="card__image" />
+              <div class="team__card-text">
+                <h3 class="team__card-title">Emily Johnson</h3>
+                <p class="team__card-desc">PPC Manager</p>
+              </div>
+              <img src="./assets/team-images/team-icon.svg" alt="team-icon" class="team__icon" />
+            </div>
+
+            <div class="team__card-bottom">
+              <p class="team__card-desc desc">
+                3+ years of experience in paid search advertising. Skilled in campaign management and performance
+                analysis
+              </p>
+            </div>
+          </div>
+
+          <div class="team__card hidden" id="hidden1">
+            <div class="team__card-top">
+              <img src="./assets/team-images/team-image-5.png" alt="card__image" class="card__image" />
+              <div class="team__card-text">
+                <h3 class="team__card-title">Brian Williams</h3>
+                <p class="team__card-desc">Social Media Specialist</p>
+              </div>
+              <img src="./assets/team-images/team-icon.svg" alt="team-icon" class="team__icon" />
+            </div>
+
+            <div class="team__card-bottom">
+              <p class="team__card-desc desc">
+                4+ years of experience in social media marketing. Proficient in creating and scheduling content,
+                analyzing metrics, and building engagement
+              </p>
+            </div>
+          </div>
+
+          <div class="team__card hidden" id="hidden2">
+            <div class="team__card-top">
+              <img src="./assets/team-images/team-image-6.png" alt="card__image" class="card__image" />
+              <div class="team__card-text">
+                <h3 class="team__card-title">Sarah Kim</h3>
+                <p class="team__card-desc">Content Creator</p>
+              </div>
+              <img src="./assets/team-images/team-icon.svg" alt="team-icon" class="team__icon" />
+            </div>
+
+            <div class="team__card-bottom">
+              <p class="team__card-desc desc">
+                2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for
+                various industries
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="team__wrapper">
+          <button id="team__button" class="button team__button">See all team</button>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials"></section>
     <section class="contact"></section>
     <footer class="footer"></footer>
 
+    <script>
+      const button = document.getElementById("team__button");
+      const hiddenCard1 = document.getElementById("hidden1");
+      const hiddenCard2 = document.getElementById("hidden2");
 
-</body>
+      console.log(button);
+      console.log(hiddenCard1);
+
+      button.addEventListener("click", function () {
+        hiddenCard1.classList.toggle("showAll");
+        hiddenCard2.classList.toggle("showAll");
+
+        if (hiddenCard1.classList.contains("showAll")) {
+          button.textContent = "Hide some";
+        } else {
+          button.textContent = "See all team";
+        }
+      });
+    </script>
+  </body>
 </html>
