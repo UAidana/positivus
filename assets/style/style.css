@@ -124,14 +124,14 @@
 }
 .contakt__block-img {
    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
 }
 .svg-wrapper {
-    width: 100%;
-    max-width: 375px;
-    overflow: hidden;
+   width: 100%;
+   max-width: 375px;
+   overflow: hidden;
 }
 #message {
    height: 190px;

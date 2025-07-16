@@ -1,12 +1,17 @@
 @media (max-width: 1440px) {
-
+   
 }
 
 @media (max-width: 1200px) {
+     .container {
+        padding: 0 40px;
+    }
+    .svg-wrapper {
+        max-width: 300px;
+    }
     .contakt__block {
         padding: 50px 30px 60px 30px;
         height: auto;
-
         gap: 50px;
         background: #fff;
         border-radius: 45px;
