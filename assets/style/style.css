@@ -28,7 +28,13 @@
 }
 .btn-light {
    border: 1px solid var(--dark);
+   cursor: pointer;
+   transition: .3s;
 }
+.btn-light:hover {
+   background: #b9ff66;
+}
+
 .header__burger {
    display: none;
 }
@@ -127,6 +133,9 @@
 #burger:checked ~ .overlay {
    display: inline-block;
 }
+.button__burger {
+   font-size: 16px; 
+}
 .hero .container {
     padding: 70px 0;
     display: flex;
@@ -165,9 +174,15 @@
    object-fit: cover;
 }
 .btn__dark, .btn__dark-adaptiv {
-    margin-top: 35px;
-    background: var(--dark);
-    color: #fff;
+   margin-top: 35px;
+   background: var(--dark);
+   color: #fff;
+   cursor: pointer;
+   transition: .3s;
+}
+.btn__dark:hover {
+   background: #b9ff66;
+   color: #000;
 }
 .section__logotypes .container {
     padding: 5px 0;
