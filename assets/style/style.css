@@ -2,3 +2,147 @@
 @import url("./resset.css");
 @import url("./global.css");
 
+.btn-light {
+   border: 1px solid var(--dark);
+}
+.btn__dark {
+    margin-top: 35px;
+    background: var(--dark);
+    color: #fff;
+}
+.contact_us {
+   display: flex;
+   align-items: center;
+   font-family: var(--font-family);
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+.contact_us-title {
+   border-radius: 7px;
+   padding: 0px 7px;
+   width: 229px;
+   height: 51px;
+   background: var(--green);
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 40px;
+   color: var(--black);
+   
+}
+.contact_us-subtitle {
+   margin-left: 40px;
+  font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 18px;
+   color: var(--black);
+   width: 323px;
+   height: 46px;
+}
+.contakt__block {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   row-gap: 40px;
+   border-radius: 45px;
+   padding: 60px 0px 80px 100px;
+   max-width:100%;
+   height: 773px;
+   background: var(--grey);
+}
+.contakt__block-radio {
+   display: flex;
+   gap: 35px;
+}
+.radio_group {
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 18px;
+   color: var(--black);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 14px;
+   
+}
+.radio_custom {
+   position: relative;
+   display: inline-block;
+   border: 1px solid #000;
+   border-radius: 29px;
+   width: 28px;
+   height: 28px;
+   background: #fff;
+   transition: .6s;
+}
+.radio_custom::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+#get:checked+.radio_custom{
+    background: url(../images/Radiobutton.svg) no-repeat center/cover;
+}
+
+#say:checked+.radio_custom{
+    background: url(../images/Radiobutton.svg) no-repeat center/cover;
+}
+.radio__custom::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin: auto;
+}
+.contakt__block form {
+   flex: 2;
+   max-width: 556px;
+}
+.contakt__block-field {
+   padding-top: 40px;
+}
+.contakt__block-group {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 25px;
+}
+
+.contakt__block-label {
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 175%;
+   color: var(--black);
+}
+.contakt__block-input {
+   border: 1px solid var(--black);
+   border-radius: 14px;
+   padding: 18px 30px;
+   width: 556px;
+   height: 59px;
+   background: #fff;
+}
+.contakt__block-img {
+   flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.svg-wrapper {
+    width: 100%;
+    max-width: 375px;
+    overflow: hidden;
+}
+#message {
+   height: 190px;
+   padding: 18px 30px;
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: 18px;
+   color: #898989;
+}
+.btn_message {
+   width: 556px;
+   
+}
+
