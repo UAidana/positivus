@@ -41,6 +41,9 @@
      .contakt__block-img {
         display: none; 
     }
+    .btn_message {
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
@@ -68,6 +71,8 @@
     }
     .contakt__block {
         padding: 25px 15px 30px 15px;
+        max-width: 390px;
+        min-height: 540px;  
     }
      .contakt__block-form {
         flex: none;
