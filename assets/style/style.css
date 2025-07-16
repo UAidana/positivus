@@ -118,7 +118,7 @@
    border: 1px solid var(--black);
    border-radius: 14px;
    padding: 18px 30px;
-   width: 556px;
+   max-width: 556px;
    height: 59px;
    background: #fff;
 }
