@@ -55,7 +55,8 @@
     box-shadow: 0 5px 0 0 var(--dark);
     background: var(--grey);
     margin-bottom: 30px;
-
+    overflow: hidden;
+    transition: height 0.3s ease;
 }
 
 
@@ -114,5 +115,25 @@
 .process__checkbox:checked + .process__box::after {
   transform: rotate(0deg);
   opacity: 0;
+}
+
+.process__block input:checked ~ .process__details {
+    max-height: 100px; 
+    padding: 20px 0;
+}
+
+.process__details{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--black);
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    /* transition: opacity 0.3s ease, transform 0.3s ease; */
+
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 
