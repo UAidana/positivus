@@ -328,3 +328,86 @@
   }
 }
 /*OUR WORKING PROCCESS*/
+
+/* CONTACT US */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 40px;
+  }
+  .svg-wrapper {
+    max-width: 300px;
+  }
+  .contakt__block {
+    padding: 50px 30px 60px 30px;
+    height: auto;
+    gap: 50px;
+    background: #fff;
+    border-radius: 45px;
+    background: var(--grey);
+  }
+}
+
+@media (max-width: 992px) {
+  .contact_us {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .contact_us-subtitle {
+    margin-left: 0;
+    margin-top: 15px;
+    max-width: 80%;
+  }
+  .contakt__block {
+    padding: 40px 25px 50px 25px;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contakt__block-img {
+    display: none;
+  }
+  .btn_message {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .contact_us-title {
+    font-size: 30px;
+  }
+  .contact_us-subtitle {
+    font-size: 15px;
+    max-width: 90%;
+  }
+  .contakt__block {
+    padding: 30px 20px 40px 20px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact_us-subtitle {
+    font-size: 14px;
+  }
+  .contakt__block {
+    padding: 25px 15px 30px 15px;
+    max-width: 390px;
+    min-height: 540px;
+  }
+  .contakt__block-form {
+    flex: none;
+    max-width: 100%;
+  }
+  .contakt__block-input,
+  .btn_message {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+/* CONTACT US */
