@@ -1,3 +1,31 @@
+/*HERO - HEADER*/
+@media (max-width:992px) {
+    .empty {
+        display: none;
+    }
+    .hero .container {
+        justify-content: center;
+    }
+    .header__menu {
+        display: none;
+    }
+    .header__burger{
+        display: block;
+    }
+    .section__logotypes .container {
+        padding: 0 20px;
+    }
+    .hero__subtitle, .btn__dark {
+        display: none;
+    }
+    .hero__subtitle-adaptiv, .btn__dark-adaptiv {
+        display: block;
+    }
+}
+
+/*HERO - HEADER*/
+
+/* CASE STUDIES*/
 @media (max-width: 1200px) {
     .caseStudies__block {
         width: 1011px;
@@ -193,4 +221,4 @@
         width: 12px;
         height: 12px;
     }
-}
+/* CASE STUDIES*/
