@@ -153,6 +153,7 @@
   font-weight: 500;
   font-size: 60px;
   color: var(--black);
+  width: 531px;
 }
 .hero__subtitle,
 .hero__subtitle-adaptiv {
@@ -162,6 +163,7 @@
   font-size: 20px;
   line-height: 140%;
   color: var(--black);
+  width: 498px;
 }
 .hero__img-wrapper {
   padding: 20px;
@@ -183,6 +185,8 @@
   color: #fff;
   cursor: pointer;
   transition: 0.3s;
+  width: 264px;
+  height: 68px;
 }
 .btn__dark:hover {
   background: #b9ff66;
