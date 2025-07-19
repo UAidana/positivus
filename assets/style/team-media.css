@@ -8,6 +8,12 @@
   }
 }
 
+@media (max-width: 1050px) {
+  .suggestion__image {
+    display: none;
+  }
+}
+
 @media (max-width: 1020px) {
   .team__card-title {
     font-size: 18px;

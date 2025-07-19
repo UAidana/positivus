@@ -73,7 +73,7 @@
   }
 
   .caseStudies__title {
-    width: 48%;
+    /* width: 48%; */
     font-size: 36px;
     height: 45px;
   }
@@ -95,7 +95,7 @@
     height: 252px;
     padding: 20px;
     border-radius: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
   }
 
   .caseStudies__link {
@@ -253,6 +253,7 @@
     font-size: 46px;
   }
   .process__title {
+    width: fit-content;
     font-size: 36px;
   }
 }
@@ -266,6 +267,7 @@
     border-radius: 71px;
   }
   .process__title {
+    width: fit-content;
     font-size: 40px;
   }
 
@@ -293,6 +295,7 @@
     font-size: 43px;
     width: 270px;
     height: 98px;
+    width: fit-content;
   }
 }
 

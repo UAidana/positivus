@@ -16,6 +16,7 @@
   font-size: 20px;
   line-height: 140%;
   color: var(--black);
+  z-index: 9999;
 }
 .header__list {
   display: flex;
@@ -357,6 +358,8 @@
 }
 /* !SUGGECTION  */
 
+/* ! CASE STUDIES */
+
 .caseStudies {
   margin: 0 100px;
 }
@@ -380,6 +383,7 @@
   padding: 0px 7px;
   width: 265px;
   height: 51px;
+  height: fit-content;
   background: var(--green);
 }
 
@@ -444,6 +448,9 @@
   height: 138px;
 }
 
+/* ! CASE STUDIES */
+
+/* ! OUR WORKING PROCESS */
 .process {
   /* padding: 0px 100px; */
   margin: 140px 100px;
@@ -466,7 +473,8 @@
   border-radius: 7px;
   padding: 0px 7px;
   width: 412px;
-  height: 51px;
+  height: fit-content;
+  /* height: 51px; */
   background: var(--green);
 }
 
@@ -571,6 +579,13 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+.active-card {
+  background-color: var(--green);
+  height: 280px;
+}
+
+/* ! OUR WORKING PROCESS */
 
 /*!TEAM*/
 .team {
