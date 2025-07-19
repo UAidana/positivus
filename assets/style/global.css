@@ -1,19 +1,18 @@
 @import url("./variables.css");
 
-.container{
-    max-width: 1240px;
-    padding:0 10px;
-    margin: 0 auto;    
+.container {
+  max-width: 1240px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
-.button{
-border-radius: 14px;
-padding: 20px 35px;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 20px;
-line-height: 140%;
-text-align: center;
-color: var(--black);
+.button {
+  border-radius: 14px;
+  padding: 20px 35px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: var(--black);
 }
-
