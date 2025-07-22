@@ -31,12 +31,34 @@ button.addEventListener("click", function () {
 
 // ! TEAM
 // ! OUR WORKING PROCCESS
+const processCards = document.querySelectorAll(".process__block");
+const processCheckbox = document.querySelectorAll(".process__checkbox");
 
-const processCard = document.querySelector(".process__block");
+console.log(processCards);
+console.log(processCheckbox);
 
-// console.log(processCard);
+const handleAddStyle = (eachCard) => {
+  eachCard.classList.toggle("active-card");
+};
 
-processCard.addEventListener("click", () => {
-  processCard.classList.toggle("active-card");
-});
+const toggleCheckbox = (eachCard) => {
+  const eachCheckbox = eachCard.querySelector(`input[type="checkbox"]`);
+  eachCheckbox.checked = !eachCheckbox.checked;
+};
+
+const toggleInput = (eachCard) => {
+  const eachInput = eachCard.querySelector(`input[type="checkbox"]`);
+  eachInput.addEventListener("click", () => {
+    eachCard.classList.toggle("active-card");
+  });
+};
+
+processCards.forEach((eachCard) =>
+  eachCard.addEventListener("click", () => {
+    handleAddStyle(eachCard);
+    toggleCheckbox(eachCard);
+    toggleInput(eachCard);
+  })
+);
+
 // ! OUR WORKING PROCCESS
