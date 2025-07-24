@@ -30,26 +30,22 @@
 /* CASE STUDIES*/
 @media (max-width: 1200px) {
   .caseStudies__block {
-  display: flex;
-  justify-content: center; /* по горизонтали */
-  width: 1061px;
-  
+    display: flex;
+    justify-content: center; /* по горизонтали */
+    width: 1061px;
   }
 }
 
 @media (max-width: 992px) {
-  .caseStudies {
-    
-  }
   .caseStudies__block {
-        width: 724px;
-        height: 400px;
+    width: 724px;
+    height: 400px;
   }
   .caseStudies__title {
     height: 98px;
   }
-  .caseStudies__desc  {
-        font-size: 21px;
+  .caseStudies__desc {
+    font-size: 21px;
   }
   .caseStudies__text {
     display: flex;
@@ -66,19 +62,14 @@
   .caseStudies__text {
     align-items: center;
   }
-  
-    .caseStudies__block {
-        width: 692px;
-        height: 415px;
-    }
-  
+
+  .caseStudies__block {
+    width: 692px;
+    height: 415px;
+  }
 }
 
 @media (max-width: 600px) {
-  .caseStudies {
-    /* margin: 0 20px; */
-  }
-
   .caseStudies__text {
     flex-direction: column;
     gap: 20px;
@@ -87,11 +78,9 @@
   }
 
   .caseStudies__title {
-
-
-        width: 48%;
-        font-size: 32px;
-        height: 64px;
+    width: 48%;
+    font-size: 32px;
+    height: 64px;
   }
 
   .caseStudies__desc {
@@ -188,9 +177,9 @@
   }
 
   .caseStudies__title {
-        width: 299px;
-        font-size: 42px;
-        height: 47px;
+    width: 299px;
+    font-size: 42px;
+    height: 47px;
   }
 
   .caseStudies__desc {
