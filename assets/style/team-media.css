@@ -1,10 +1,16 @@
 @media (max-width: 1260px) {
-  .team .container {
+  /* .team .container {
     padding: 0 20px;
-  }
+  } */
 
   .team__icon {
     right: 25px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .suggestion__image {
+    display: none;
   }
 }
 
